@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de formulario</title>
+</head>
+<body>
+    <h1>Ejemplo de formulario usando web3forms.com</h1>
+    <p>Más información en <a href="https://web3forms.com/">https://web3forms.com/</a></p>
+    <form action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="">
+        <input type="hidden" name="redirect" value="https://esbendev.com">
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" required>
+        <label for="email">Email</label>
+        <input type="email" name="email" required>
+        <label for="mensaje">Mensaje</label>
+        <textarea name="mensaje" required></textarea>
+        <button type="submit">Enviar</button>    
+    </form>
+</body>
+</html>
